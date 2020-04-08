@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4b54874f31b542bbaff64a34dd4c4266" Name="Diagram1">
+        <EntityTypeShape EntityType="CapstoneModel.Account" Width="1.5" PointX="1.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CapstoneModel.Employee" Width="1.5" PointX="6.5" PointY="0.5" />
+        <EntityTypeShape EntityType="CapstoneModel.Garage" Width="1.5" PointX="4.25" PointY="2" />
+        <EntityTypeShape EntityType="CapstoneModel.Service" Width="1.5" PointX="6.5" PointY="3.875" />
+        <AssociationConnector Association="CapstoneModel.FK_Garage_Account" />
+        <AssociationConnector Association="CapstoneModel.FK_Employee_Garage" />
+        <AssociationConnector Association="CapstoneModel.FK_Service_Garage" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
